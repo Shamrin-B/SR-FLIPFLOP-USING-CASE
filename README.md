@@ -15,12 +15,12 @@ SR Flip-Flop SR flip-flop operates with only positive clock transitions or negat
 ![image](https://github.com/naavaneetha/SR-FLIPFLOP-USING-CASE/assets/154305477/0f710028-ad52-4d3e-9276-8714cf023a25)
 
  
-This circuit has two inputs S & R and two outputs Qtt & Qtt’. The operation of SR flipflop is similar to SR Latch. But, this flip-flop affects the outputs only when positive transition of the clock signal is applied instead of active enable. The following table shows the state table of SR flip-flop.
+This circuit has two inputs S & R and two outputs Qt & Qt’. The operation of SR flipflop is similar to SR Latch. But, this flip-flop affects the outputs only when positive transition of the clock signal is applied instead of active enable. The following table shows the state table of SR flip-flop.
 
 ![image](https://github.com/naavaneetha/SR-FLIPFLOP-USING-CASE/assets/154305477/dabfc4f4-87e3-4cbc-9472-f89ee1b5ed30)
 
  
-Here, Qtt & Qt+1t+1 are present state & next state respectively. So, SR flip-flop can be used for one of these three functions such as Hold, Reset & Set based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of SR flip-flop. Present Inputs Present State Next State
+Here, Qt & Qt+1t+1 are present state & next state respectively. So, SR flip-flop can be used for one of these three functions such as Hold, Reset & Set based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of SR flip-flop. Present Inputs Present State Next State
 
 ![image](https://github.com/naavaneetha/SR-FLIPFLOP-USING-CASE/assets/154305477/dd90d16c-aec5-4290-a586-e2346b1e9eb5)
 
@@ -34,11 +34,11 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 ```
-1.design the SR Flip-Flop circuit using the IC 7474,switches,LED,and wires.
-2.configure the input switch (S and R)to apply the different input combination.
-3.run the simulation to observe the output(Q and Q') on the LEDs.
-4.verife the output with the  SR Flip-Flop the truth table to ensure the funtionality according to its truth table.
-5.Analyze the results, take a screen short, and generate a report to document.
+1.Type the program in the Quartus software.
+2.compile and run the program.
+3.geenerate the RTL schematic and save the logical diagram.
+4.creat the node for the input and output to generate the timing diagram.
+5.for the different input combination generate the timing diagram.
 ```
 **PROGRAM**
 ```
